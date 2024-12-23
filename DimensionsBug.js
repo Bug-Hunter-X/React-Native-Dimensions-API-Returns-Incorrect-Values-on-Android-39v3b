@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions, especially on Android devices. The issue is that the `Dimensions` API might return incorrect values, or even `undefined`, during the initial rendering of the component before the layout is fully calculated. This often leads to incorrect calculations and unexpected layout behavior.
